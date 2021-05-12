@@ -17,9 +17,11 @@ import styleCss from "./style-css.js";
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
- * auro-skeleton provides users a way to ...
+ * auro-skeleton provides users a way to indicate the loading of asynchronous content on a page
  *
- * @attr {String} cssClass - Applies designated CSS class to DOM element.
+ * @attr {Boolean} circle - Renders a circle skeleton loader.
+ * @attr {Boolean} oval - Renders a oval skeleton loader.
+ * @attr {Boolean} rectangle - Renders a rectangle skeleton loader.
  */
 
 // build the component class
@@ -32,7 +34,9 @@ class AuroSkeleton extends LitElement {
   static get properties() {
     return {
       // ...super.properties,
-      cssClass:   { type: String }
+      circle:   { type: Boolean },
+      oval:   { type: Boolean },
+      rectangle:   { type: Boolean },
     };
   }
 
@@ -48,8 +52,7 @@ class AuroSkeleton extends LitElement {
   // function that renders the HTML and CSS into  the scope of the component
   render() {
     return html`
-      <div class=${this.cssClass}>
-        <slot></slot>
+      <div>
       </div>
     `;
   }
