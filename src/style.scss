@@ -31,9 +31,9 @@ div {
 
 :host([circle]) {
   div {
-    border-radius: 50%;
-    width: auto;
     position: relative;
+    width: auto;
+    border-radius: 50%;
   }
 }
 
