@@ -1,6 +1,6 @@
 # Skeleton
 
-`<auro-skeleton>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for the purpose of ...
+`<auro-skeleton>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for providing users a way to indicate the loading of asynchronous content on a page
 
 ## UI development browser support
 
@@ -64,16 +64,14 @@ Since the legacy bundle includes many polyfills that are not needed by modern br
 
 The `<auro-skeleton>` element should be used in situations where users may:
 
-* ...
-* ...
-* ...
+* Need to load data asynchronously and need a placeholder
 
 ## API Code Examples
 
 Default auro-skeleton
 
 ```html
-<auro-skeleton>Hello World</auro-skeleton>
+<auro-skeleton rectangle></auro-skeleton>
 ```
 
 ## Development
