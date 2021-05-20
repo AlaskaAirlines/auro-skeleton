@@ -35,9 +35,6 @@ class AuroSkeleton extends LitElement {
   static get properties() {
     return {
       // ...super.properties,
-      circle:   { type: Boolean },
-      oval:   { type: Boolean },
-      rectangle:   { type: Boolean },
     };
   }
 
