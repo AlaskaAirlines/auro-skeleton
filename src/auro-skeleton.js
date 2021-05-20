@@ -3,8 +3,8 @@
 
 // ---------------------------------------------------------------------
 
-// If use litElement base class
-import { LitElement, html, css } from "lit-element";
+// If using litElement base class
+import { LitElement, html } from "lit-element";
 
 // If using auroElement base class
 // See instructions for importing auroElement base class https://git.io/JULq4
@@ -14,6 +14,7 @@ import { LitElement, html, css } from "lit-element";
 // Import touch detection lib
 import "focus-visible/dist/focus-visible.min.js";
 import styleCss from "./style-css.js";
+import styleCssFixed from './style-fixed-css.js';
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
@@ -41,9 +42,10 @@ class AuroSkeleton extends LitElement {
   }
 
   static get styles() {
-    return css`
-      ${styleCss}
-    `;
+    return [
+      styleCss,
+      styleCssFixed
+    ];
   }
 
   // When using auroElement, use the following attribute and function when hiding content from screen readers.
@@ -52,13 +54,14 @@ class AuroSkeleton extends LitElement {
   // function that renders the HTML and CSS into  the scope of the component
   render() {
     return html`
+
+      <!-- this is demo code, DO NOT USE IN YOUR ELEMENT -->
       <div>
       </div>
     `;
   }
 }
 
-/* istanbul ignore else */
 // define the name of the custom component
 if (!customElements.get("auro-skeleton")) {
   customElements.define("auro-skeleton", AuroSkeleton);

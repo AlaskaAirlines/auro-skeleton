@@ -19,15 +19,31 @@ The `auro-skeleton` element should be used in situations where users may:
 |√|√|||
 |||√|√|
 
-<div class="exampleWrapper" style="min-width:300px;min-height:150px;">
-  <auro-skeleton oval>Hello World!</auro-skeleton>
+<div class="exampleWrapper">
+  <div class="placeholderWrapper">
+    <auro-skeleton circle>Hello World!</auro-skeleton>
+  </div>
+  <div class="placeholderWrapper">
+    <auro-skeleton oval>Hello World!</auro-skeleton>
+  </div>
+  <div class="placeholderWrapper">
+    <auro-skeleton rectangle>Hello World!</auro-skeleton>
+  </div>
 </div>
 
 <auro-accordion lowProfile justifyRight>
   <span slot="trigger">See code</span>
 
   ```html
-  <auro-skeleton oval>Hello World!</auro-skeleton>
+  <div class="placeholderWrapper">
+    <auro-skeleton circle>Hello World!</auro-skeleton>
+  </div>
+  <div class="placeholderWrapper">
+    <auro-skeleton oval>Hello World!</auro-skeleton>
+  </div>
+  <div class="placeholderWrapper">
+    <auro-skeleton rectangle>Hello World!</auro-skeleton>
+  </div>
   ```
 
 </auro-accordion>

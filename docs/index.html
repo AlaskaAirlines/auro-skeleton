@@ -51,7 +51,9 @@
     }
 
     var auroSkeleton = [
-      '<auro-skeleton cssClass="testClass">Hello World</auro-skeleton>'
+      '<auro-skeleton circle>/auro-skeleton>',
+      '<auro-skeleton oval></auro-skeleton>',
+      '<auro-skeleton rectangle></auro-skeleton>'
     ]
   </script>
 </head>
@@ -62,11 +64,14 @@
     <p>The following examples illustrate the auro-skeleton APIs used within any web app.</p>
     <section class="wc-wrapper">
       <h3>auro-skeleton: default</h3>
-      <script>
-        for (i = 0; i < auroSkeleton.length; i++) {
-          document.write(auroSkeleton[i])
-        }
-      </script>
+      <div style="width:150px;height:150px;">
+        <script>
+          for (i = 0; i < auroSkeleton.length; i++) {
+            document.write(auroSkeleton[i])
+          }
+        </script>
+      </div>
+
       <div class="codeWrapper margin">
         <code>
           <script>
@@ -81,9 +86,9 @@
   </main>
   <div id="assets">
     <link rel="stylesheet"
-      href="https://unpkg.com/@alaskaairux/design-tokens@3.2.1/dist/tokens/CSSCustomProperties.css" />
+      href="https://unpkg.com/@alaskaairux/design-tokens@undefined/dist/tokens/CSSCustomProperties.css" />
     <link rel="stylesheet"
-      href="https://unpkg.com/@alaskaairux/webcorestylesheets@3.3.0/dist/bundled/essentials.css" />
+      href="https://unpkg.com/@alaskaairux/webcorestylesheets@undefined/dist/bundled/essentials.css" />
 
 
     <!-- for initial build and test only -->

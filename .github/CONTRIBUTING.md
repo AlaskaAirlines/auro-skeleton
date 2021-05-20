@@ -1,6 +1,6 @@
 # Auro Design System Contributing Guidelines
 
-Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
+Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved. Also be sure to review the [Issues, pull requests and labels](https://auro.alaskaair.com/contributing/issues-prs-labels) process document.
 
 ## Feature Requests
 
@@ -22,7 +22,7 @@ Guidelines for bug reports:
 
 A good bug report shouldn't leave others needing to follow up for more information. Please try to be as detailed as possible in your report. What is your environment? What steps will reproduce the issue? What browser(s) and OS experience the problem? What would you expect to be the outcome? All these details will help people to fix any potential bugs.
 
-Poor bug reports will be reassigned back to the creator for revision prior to any additional investigation.
+Poor bug reports will be closed as the team is unable to reproduce the issue.
 
 For more information about the issue submission process, please see the [Issues: work status label maintenance](https://auro.alaskaair.com/contributing/issues-prs-labels) section of the Auro contributing guidelines
 
@@ -67,7 +67,6 @@ If you are working off a forked branch, please see [Maintaining your fork's upst
 This project utilizes [Conventional Commits](https://www.conventionalcommits.org/) to auto-generate release versions, based on the [Angular Commit Message Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
 
 **NOTE:** Before working in your project, be sure to run `$ npm i` to ensure that all packages are installed. Submitting pull requests that do not conform to this standard will assume that development dependencies were not installed and no tests were validated prior to submission. **This will result in immediate disqualification of the pull request**.
-
 
 ```
 <type>[optional scope]: <description>
@@ -145,3 +144,16 @@ $ feat: add ability to consume large data as an array versus string
 
 $ fix: address issue #57 in regards to color output
 ```
+
+## Pull request service level agreement
+
+Once a pull request has been created, the assigned reviewer will receive a notification.
+
+Pull request response time depends on the scope of the pull request.
+
+* If the work is solicited and there is an issue assigned to the work, the author of the pull request should expect to receive feedback within 24 hours.
+* If the work is unsolicited, and/or is a new feature or refactor of a current feature, the author may expect to wait up to 72 hours for feedback as this will take additional resources to understand the scope of the update.
+
+The reviewer has the option to leave comments, ask questions and reject the pull request if warranted.
+
+Once a reviewer has approved the work, the pull request can then be merged into the main branch.

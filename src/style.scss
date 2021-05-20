@@ -4,28 +4,25 @@
 // ---------------------------------------------------------------------
 
 // Import Auro tokens
-@import "./node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
-@import "./node_modules/@alaskaairux/design-tokens/dist/tokens/SassCustomProperties";
+@import './../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import './../node_modules/@alaskaairux/design-tokens/dist/tokens/SassCustomProperties';
 
-@import "./node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
-@import "./node_modules/@alaskaairux/webcorestylesheets/dist/core";
+@import './../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints';
+@import './../node_modules/@alaskaairux/webcorestylesheets/dist/core';
 
 // Support for auroElement styles
-// @import "./node_modules/@alaskaairux/webcorestylesheets/dist/auroElement/auroElement";
+// @import './node_modules/@alaskaairux/webcorestylesheets/dist/auroElement/auroElement';
 
 // container styles - defines the look of the outer custom component
 // :host {
 //   ...
 // }
 
+
 div {
   width: auto;
-  height: 100px;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: backwards;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-name: placeHolderShimmer;
-  -webkit-animation-timing-function: linear;
+  height: 100%;
+  animation: placeHolderShimmer 2s linear 0s infinite normal forwards;
   background: var(--auro-color-brand-neutral-100);
   background-image: linear-gradient(to right, var(--auro-color-brand-neutral-100) 0%, var(--auro-color-brand-gray-100) 20%, var(--auro-color-brand-neutral-100) 40%, var(--auro-color-brand-neutral-100) 100%);
   background-repeat: no-repeat;
@@ -47,7 +44,9 @@ div {
 }
 
 :host([rectangle]) {
-  border-radius: var(--auro-border-radius);
+  div {
+    border-radius: 4px;
+  }
 }
 
 @keyframes placeHolderShimmer{

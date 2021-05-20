@@ -9,11 +9,11 @@ For the most up to date information on [UI development browser support](https://
 ## Install
 
 [![Build Status](https://img.shields.io/github/workflow/status/AlaskaAirlines/auro-skeleton/Test%20and%20publish?branch=master&style=for-the-badge)](https://github.com/AlaskaAirlines/auro-skeleton/actions?query=workflow%3A%22test+and+publish%22)
-[![See it on NPM!](https://img.shields.io/npm/v/@aurolabs/auro-skeleton?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@aurolabs/auro-skeleton)
-[![License](https://img.shields.io/npm/l/@aurolabs/auro-skeleton?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
+[![See it on NPM!](https://img.shields.io/npm/v/@aurodesignsystem/auro-skeleton?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@aurodesignsystem/auro-skeleton)
+[![License](https://img.shields.io/npm/l/@aurodesignsystem/auro-skeleton?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ```shell
-$ npm i @aurolabs/auro-skeleton
+$ npm i @aurodesignsystem/auro-skeleton
 ```
 
 Installing as a direct, dev or peer dependency is up to the user installing the package. If you are unsure as to what type of dependency you should use, consider reading this [stack overflow](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies) answer.
@@ -33,7 +33,7 @@ Any update to the Auro Design Tokens will be immediately reflected with browsers
 Defining the component dependency within each component that is using the `<auro-skeleton>` component.
 
 ```javascript
-import "@aurolabs/auro-skeleton";
+import "@aurodesignsystem/auro-skeleton";
 ```
 
 **Reference component in HTML**
@@ -47,6 +47,8 @@ import "@aurolabs/auro-skeleton";
 In cases where the project is not able to process JS assets, there are pre-processed assets available for use. Two bundles are available -- `auro-skeleton__bundled.js` for modern browsers and `auro-skeleton__bundled.es5.js` for legacy browsers (including IE11).
 
 Since the legacy bundle includes many polyfills that are not needed by modern browsers, we recommend you load these bundles using [differential serving](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/) so that the browser only loads the bundle it needs. To accomplish this, the script tag for the modern bundle should have `type="module"` and the script tag for the legacy bundle should have the `nomodule` attribute. See the example below.
+
+### Bundle example code
 
 **NOTE:** Be sure to replace `@latest` in the URL with the version of the asset you want. @latest is NOT aware of any MAJOR releases, use at your own risk.
 
@@ -100,3 +102,5 @@ Automated tests are required for every Auro component. See `.\test\auro-skeleton
 ### Demo deployment
 
 To deploy a demo version of the component for review, run `npm run demo:build` to create a `./build` directory that can be pushed to any static server.
+
+<small>Built from WC-Generator v3.1.1</small>
