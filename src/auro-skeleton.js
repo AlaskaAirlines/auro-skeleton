@@ -51,8 +51,6 @@ class AuroSkeleton extends LitElement {
   // function that renders the HTML and CSS into  the scope of the component
   render() {
     return html`
-
-      <!-- this is demo code, DO NOT USE IN YOUR ELEMENT -->
       <div>
       </div>
     `;
