@@ -39,7 +39,7 @@ import "@aurodesignsystem/auro-skeleton";
 **Reference component in HTML**
 
 ```html
-<auro-skeleton>Hello World</auro-skeleton>
+<auro-skeleton shape="rectangle">Hello World</auro-skeleton>
 ```
 
 ## Install bundled assets from CDN
@@ -71,7 +71,7 @@ The `<auro-skeleton>` element should be used in situations where users may:
 Default auro-skeleton
 
 ```html
-<auro-skeleton rectangle></auro-skeleton>
+<auro-skeleton shape="rectangle"></auro-skeleton>
 ```
 
 ## Development

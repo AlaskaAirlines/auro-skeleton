@@ -20,9 +20,7 @@ import styleCssFixed from './style-fixed-css.js';
 /**
  * auro-skeleton provides users a way to indicate the loading of asynchronous content on a page
  *
- * @attr {Boolean} circle - Renders a circle skeleton loader.
- * @attr {Boolean} oval - Renders a oval skeleton loader.
- * @attr {Boolean} rectangle - Renders a rectangle skeleton loader.
+ * @attr {String} shape - Renders a circle, oval, or rectangle loader.
  */
 
 // build the component class

@@ -21,13 +21,13 @@ The `auro-skeleton` element should be used in situations where users may:
 
 <div class="exampleWrapper">
   <div class="placeholderWrapper">
-    <auro-skeleton circle>Hello World!</auro-skeleton>
+    <auro-skeleton shape="circle">Hello World!</auro-skeleton>
   </div>
   <div class="placeholderWrapper">
-    <auro-skeleton oval>Hello World!</auro-skeleton>
+    <auro-skeleton shape="oval">Hello World!</auro-skeleton>
   </div>
   <div class="placeholderWrapper">
-    <auro-skeleton rectangle>Hello World!</auro-skeleton>
+    <auro-skeleton shape="rectangle">Hello World!</auro-skeleton>
   </div>
 </div>
 
@@ -36,13 +36,13 @@ The `auro-skeleton` element should be used in situations where users may:
 
   ```html
   <div class="placeholderWrapper">
-    <auro-skeleton circle>Hello World!</auro-skeleton>
+    <auro-skeleton shape="circle">Hello World!</auro-skeleton>
   </div>
   <div class="placeholderWrapper">
-    <auro-skeleton oval>Hello World!</auro-skeleton>
+    <auro-skeleton shape="oval">Hello World!</auro-skeleton>
   </div>
   <div class="placeholderWrapper">
-    <auro-skeleton rectangle>Hello World!</auro-skeleton>
+    <auro-skeleton shape="rectangle">Hello World!</auro-skeleton>
   </div>
   ```
 

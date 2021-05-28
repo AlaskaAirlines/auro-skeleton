@@ -29,7 +29,7 @@ div {
   background-size: 800px 100%;
 }
 
-:host([circle]) {
+:host([shape='circle']) {
   div {
     position: relative;
     width: auto;
@@ -37,13 +37,13 @@ div {
   }
 }
 
-:host([oval]) {
+:host([shape='oval']) {
   div {
     border-radius: 44px;
   }
 }
 
-:host([rectangle]) {
+:host([shape='rectangle']) {
   div {
     border-radius: 4px;
   }
