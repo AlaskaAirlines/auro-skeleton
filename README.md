@@ -1,6 +1,6 @@
 # Skeleton
 
-`<auro-skeleton>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for the purpose of ...
+`<auro-skeleton>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for the purpose of providing users a way to indicate the loading of asynchronous content on a page.
 
 ## UI development browser support
 
@@ -39,7 +39,7 @@ import "@aurolabs/auro-skeleton";
 **Reference component in HTML**
 
 ```html
-<auro-skeleton>Hello World</auro-skeleton>
+<auro-skeleton shape="rectangle"></auro-skeleton>
 ```
 
 ## Install bundled assets from CDN
@@ -58,20 +58,12 @@ Since the legacy bundle includes many polyfills that are not needed by modern br
 <script src="https://unpkg.com/@alaskaairux/auro-skeleton@latest/dist/auro-skeleton__bundled.es5.js" nomodule></script>
 ```
 
-## auro-skeleton use cases
-
-The `<auro-skeleton>` element should be used in situations where users may:
-
-* ...
-* ...
-* ...
-
 ## API Code Examples
 
 Default auro-skeleton
 
 ```html
-<auro-skeleton>Hello World</auro-skeleton>
+<auro-skeleton shape="rectangle"></auro-skeleton>
 ```
 
 ## Development

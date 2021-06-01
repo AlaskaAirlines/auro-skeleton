@@ -19,9 +19,7 @@ import styleCss from "./style-css.js";
 /**
  * auro-skeleton provides users a way to indicate the loading of asynchronous content on a page
  *
- * @attr {Boolean} circle - Renders a circle skeleton loader.
- * @attr {Boolean} oval - Renders a oval skeleton loader.
- * @attr {Boolean} rectangle - Renders a rectangle skeleton loader.
+ * @attr {String} shape - Renders a circle, oval, or rectangle loader.
  */
 
 // build the component class
@@ -34,9 +32,6 @@ class AuroSkeleton extends LitElement {
   static get properties() {
     return {
       // ...super.properties,
-      circle:   { type: Boolean },
-      oval:   { type: Boolean },
-      rectangle:   { type: Boolean },
     };
   }
 
@@ -52,8 +47,7 @@ class AuroSkeleton extends LitElement {
   // function that renders the HTML and CSS into  the scope of the component
   render() {
     return html`
-      <div>
-      </div>
+      <span class="util_displayHiddenVisually">Loading...</span>
     `;
   }
 }

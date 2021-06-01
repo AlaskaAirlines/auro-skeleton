@@ -9,52 +9,43 @@
 
 @import "./node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
 @import "./node_modules/@alaskaairux/webcorestylesheets/dist/core";
+@import "./node_modules/@alaskaairux/webcorestylesheets/dist/utilityClasses/displayProperties";
 
 // Support for auroElement styles
 // @import "./node_modules/@alaskaairux/webcorestylesheets/dist/auroElement/auroElement";
 
 // container styles - defines the look of the outer custom component
-// :host {
-//   ...
-// }
-
-div {
-  width: auto;
-  height: 100px;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: backwards;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-name: placeHolderShimmer;
-  -webkit-animation-timing-function: linear;
-  background: var(--auro-color-brand-neutral-100);
-  background-image: linear-gradient(to right, var(--auro-color-brand-neutral-100) 0%, var(--auro-color-brand-gray-100) 20%, var(--auro-color-brand-neutral-100) 40%, var(--auro-color-brand-neutral-100) 100%);
+:host {
+  display: block;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: var(--auro-color-brand-neutral-100);
+  background-image: linear-gradient(to right, var(--auro-color-brand-neutral-100) 5%, var(--auro-color-background-lightest) 25%, var(--auro-color-brand-neutral-100) 35%);
   background-repeat: no-repeat;
-  background-size: 800px 100%;
+  background-size: 1000px 100%;
 }
 
-:host([circle]) {
-  div {
-    border-radius: 50%;
-    width: auto;
-    position: relative;
-  }
+:host([shape='circle']) {
+  width: auto;
+  border-radius: 50%;
 }
 
-:host([oval]) {
-  div {
-    border-radius: 44px;
-  }
+:host([shape='oval']) {
+  border-radius: 9999px;
 }
 
-:host([rectangle]) {
+:host([shape='rectangle']) {
   border-radius: var(--auro-border-radius);
 }
 
 @keyframes placeHolderShimmer{
-  0% {
-      background-position: 200% 0;
+  from {
+    background-position: -1000px 0;
   }
-  100% {
-      background-position: -100% 0;
+  to {
+    background-position: 1000px 0;
   }
 }
