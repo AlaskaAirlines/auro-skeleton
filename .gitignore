@@ -2,12 +2,12 @@
 node_modules/
 .cache/
 
-## Sass files built on demand from Token files
-demo/sass/_*.scss
+## Demo support files
+demo/
 
 ## CSS built from Sass process
-demo/css
 src/*.css
+src/*.css.map
 
 ## *-css built from sass-render process
 *-css.js
@@ -18,3 +18,6 @@ build/
 
 ## Karma code coverage reports
 coverage/
+
+## Include demo.md file
+!demo/demo.md
