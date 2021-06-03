@@ -126,14 +126,6 @@
       "@semantic-release/github"
     ]
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "header-max-length": [0, "always", 1000]
-    }
-  },
   "publishConfig": {
     "access": "public"
   },
