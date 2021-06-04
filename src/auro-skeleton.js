@@ -5,6 +5,7 @@
 
 // If use litElement base class
 import { LitElement, html, css } from "lit-element";
+import version from './version';
 
 // If using auroElement base class
 // See instructions for importing auroElement base class https://git.io/JULq4
@@ -47,7 +48,7 @@ class AuroSkeleton extends LitElement {
   // function that renders the HTML and CSS into  the scope of the component
   render() {
     return html`
-      <span class="util_displayHiddenVisually">Loading...</span>
+      <span version="${version}" class="util_displayHiddenVisually">Loading...</span>
     `;
   }
 }
