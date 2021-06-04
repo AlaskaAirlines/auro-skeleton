@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.0.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v1.0.0...v1.0.1) (2021-06-04)
+
+
+### Bug Fixes
+
+* **automate api:** address setup for commit back of generated API ([c6d5c3d](https://github.com/AlaskaAirlines/auro-skeleton/commit/c6d5c3def1f39238179e3ee5c4a63e383e43e8bd))
+
 # 1.0.0 (2021-06-03)
 
 
