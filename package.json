@@ -119,7 +119,8 @@
         {
           "assets": [
             "./CHANGELOG.md",
-            "package.json"
+            "./package.json",
+            "./docs/api.md"
           ]
         }
       ],
