@@ -108,12 +108,6 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       [
-        "@semantic-release/exec",
-        {
-          "verifyReleaseCmd": "printf \"export default \"${nextRelease.version}\"\" > ./src/version.js"
-        }
-      ],
-      [
         "@semantic-release/changelog",
         {
           "changelogFile": "./CHANGELOG.md",
@@ -127,8 +121,7 @@
           "assets": [
             "./CHANGELOG.md",
             "./package.json",
-            "./docs/api.md",
-            "./src/version.js"
+            "./docs/api.md"
           ]
         }
       ],
