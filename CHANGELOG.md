@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.0.6](https://github.com/AlaskaAirlines/auro-skeleton/compare/v1.0.5...v1.0.6) (2021-06-04)
+
+
+### Bug Fixes
+
+* **version:** try a different way to print to file ([8e5f281](https://github.com/AlaskaAirlines/auro-skeleton/commit/8e5f2813dd56d366ccb39486c804687db9990cc0))
+
 ## [1.0.5](https://github.com/AlaskaAirlines/auro-skeleton/compare/v1.0.4...v1.0.5) (2021-06-04)
 
 
