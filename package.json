@@ -110,7 +110,7 @@
       [
         "@semantic-release/exec",
         {
-          "verifyReleaseCmd": "echo export default \"${nextRelease.version}\" > ./src/version.js"
+          "verifyReleaseCmd": "printf \"export default \"${nextRelease.version}\"\" > ./src/version.js"
         }
       ],
       [
