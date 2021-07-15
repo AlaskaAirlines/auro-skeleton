@@ -17,7 +17,7 @@ import styleCss from "./style-css.js";
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
- * auro-skeleton provides users a way to indicate the loading of asynchronous content on a page
+ * auro-skeleton provides users a way to indicate the loading of asynchronous content on a page.
  *
  * @attr {String} shape - Renders a circle, oval, or rectangle loader.
  */

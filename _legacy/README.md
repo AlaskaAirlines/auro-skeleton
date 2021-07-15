@@ -1,6 +1,6 @@
 # Skeleton
 
-`<auro-skeleton>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for the purpose of ...
+`<auro-skeleton>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for the purpose of providing users a way to indicate the loading of asynchronous content on a page.
 
 ## UI development browser support
 
@@ -9,11 +9,11 @@ For the most up to date information on [UI development browser support](https://
 ## Install
 
 [![Build Status](https://img.shields.io/github/workflow/status/AlaskaAirlines/auro-skeleton/Test%20and%20publish?branch=master&style=for-the-badge)](https://github.com/AlaskaAirlines/auro-skeleton/actions?query=workflow%3A%22test+and+publish%22)
-[![See it on NPM!](https://img.shields.io/npm/v/@aurodesignsystem/auro-skeleton?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@aurodesignsystem/auro-skeleton)
-[![License](https://img.shields.io/npm/l/@aurodesignsystem/auro-skeleton?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
+[![See it on NPM!](https://img.shields.io/npm/v/@aurolabs/auro-skeleton?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@aurolabs/auro-skeleton)
+[![License](https://img.shields.io/npm/l/@aurolabs/auro-skeleton?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ```shell
-$ npm i @aurodesignsystem/auro-skeleton
+$ npm i @aurolabs/auro-skeleton
 ```
 
 Installing as a direct, dev or peer dependency is up to the user installing the package. If you are unsure as to what type of dependency you should use, consider reading this [stack overflow](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies) answer.
@@ -33,13 +33,13 @@ Any update to the Auro Design Tokens will be immediately reflected with browsers
 Defining the component dependency within each component that is using the `<auro-skeleton>` component.
 
 ```javascript
-import "@aurodesignsystem/auro-skeleton";
+import "@aurolabs/auro-skeleton";
 ```
 
 **Reference component in HTML**
 
 ```html
-<auro-skeleton>Hello World</auro-skeleton>
+<auro-skeleton shape="rectangle"></auro-skeleton>
 ```
 
 ## Install bundled assets from CDN
@@ -56,24 +56,16 @@ Since the legacy bundle includes many polyfills that are not needed by modern br
 <link rel="stylesheet" href="https://unpkg.com/@alaskaairux/design-tokens@latest/dist/tokens/CSSCustomProperties.css" />
 <link rel="stylesheet" href="https://unpkg.com/@alaskaairux/webcorestylesheets@latest/dist/bundled/essentials.css" />
 
-<script src="https://unpkg.com/@aurodesignsystem/auro-skeleton@latest/dist/auro-skeleton__bundled.js" type="module"></script>
-<script src="https://unpkg.com/@aurodesignsystem/auro-skeleton@latest/dist/auro-skeleton__bundled.es5.js" nomodule></script>
+<script src="https://unpkg.com/@alaskaairux/auro-skeleton@latest/dist/auro-skeleton__bundled.js" type="module"></script>
+<script src="https://unpkg.com/@alaskaairux/auro-skeleton@latest/dist/auro-skeleton__bundled.es5.js" nomodule></script>
 ```
-
-## auro-skeleton use cases
-
-The `<auro-skeleton>` element should be used in situations where users may:
-
-* ...
-* ...
-* ...
 
 ## API Code Examples
 
 Default auro-skeleton
 
 ```html
-<auro-skeleton>Hello World</auro-skeleton>
+<auro-skeleton shape="rectangle"></auro-skeleton>
 ```
 
 ## Development
@@ -96,20 +88,11 @@ $ npm run serve
 
 Open [localhost:8000](http://localhost:8000/)
 
-### API generation
-
-The custom element API file is generated in the build and committed back to the repo with a version change. If the API doc has changed without a version change, author's are to run `npm run build:api` to generate the doc and commit to version control.
-
 ### Testing
-
 Automated tests are required for every Auro component. See `.\test\auro-skeleton.test.js` for the tests for this component. Run `npm test` to run the tests and check code coverage. Tests must pass and meet a certain coverage threshold to commit. See [the testing documentation](https://auro.alaskaair.com/support/tests) for more details.
-
-### Bundled assets
-
-Bundled assets are only generated in the remote and not merged back to this repo. To review and/or test a bundled asset locally, run `$ npm run bundler` to generate assets.
 
 ### Demo deployment
 
 To deploy a demo version of the component for review, run `npm run demo:build` to create a `./build` directory that can be pushed to any static server.
 
-<small>Built from WC-Generator v3-7-1</small>
+<small>Built from WC-Generator v3.3.2</small>
