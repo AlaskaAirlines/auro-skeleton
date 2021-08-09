@@ -39,7 +39,7 @@ import "@aurodesignsystem/auro-skeleton";
 **Reference component in HTML**
 
 ```html
-<auro-skeleton shape="rectangle"></auro-skeleton>
+<auro-skeleton shape="oval" style="width: 80px; height: 40px"></auro-skeleton>
 ```
 
 ## Install bundled assets from CDN
@@ -62,18 +62,14 @@ Since the legacy bundle includes many polyfills that are not needed by modern br
 
 ## auro-skeleton use cases
 
-The `<auro-skeleton>` element should be used in situations where users may:
-
-* ...
-* ...
-* ...
+The `auro-skeleton` component is for use when display content takes an extended amount of time to process and render on-screen. This indicator communicates to the user that data is being loaded and that the page is not frozen.
 
 ## API Code Examples
 
 Default auro-skeleton
 
 ```html
-<auro-skeleton shape="rectangle"></auro-skeleton>
+<auro-skeleton shape="oval" style="width: 80px; height: 40px"></auro-skeleton>
 ```
 
 ## Development
