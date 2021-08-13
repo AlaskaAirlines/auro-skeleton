@@ -101,6 +101,9 @@ Do not represent a loading state with `auro-skeleton` for an entire component su
 </div>
 
 <auro-accordion lowProfile justifyRight>
+  <span slot="trigger">See code</span>
+
+  ```html
   <table class="auro_table">
     <thead>
       <tr>
@@ -126,4 +129,6 @@ Do not represent a loading state with `auro-skeleton` for an entire component su
       </tr>
     </tbody>
   </table>
+  ```
+
 </auro-accordion>
