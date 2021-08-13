@@ -1,5 +1,18 @@
 # Semantic Release Automated Changelog
 
+# [2.0.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v1.0.8...v2.0.0) (2021-08-13)
+
+
+### chore
+
+* **deps:** update packages ([056bc8d](https://github.com/AlaskaAirlines/auro-skeleton/commit/056bc8d618c8a0e5184ac2a5504119dc17fb99d4))
+
+
+### BREAKING CHANGES
+
+* **deps:** This update signals the official release of
+@aurodesignsystem/auro-skeleton html custom element
+
 ## [1.0.8](https://github.com/AlaskaAirlines/auro-skeleton/compare/v1.0.7...v1.0.8) (2021-07-15)
 
 
