@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.0.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.0.0...v2.0.1) (2021-12-02)
+
+
+### Bug Fixes
+
+* **a11y:** update css to support a11y contrast [#16](https://github.com/AlaskaAirlines/auro-skeleton/issues/16) ([d7a175e](https://github.com/AlaskaAirlines/auro-skeleton/commit/d7a175e5a11a02b02f0682a1fbd63f7474d80f01))
+
 # [2.0.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v1.0.8...v2.0.0) (2021-08-13)
 
 
