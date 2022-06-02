@@ -22,8 +22,8 @@
   animation-iteration-count: infinite;
   animation-name: placeHolderShimmer;
   animation-timing-function: linear;
-  background-color: var(--auro-color-brand-gray-200);
-  background-image: linear-gradient(to right,var(--auro-color-brand-gray-200) 10%,var(--auro-color-brand-neutral-100) 40%,var(--auro-color-brand-gray-200) 60%);
+  background-color: var(--auro-color-brand-neutral-100);
+  background-image: linear-gradient(to right,var(--auro-color-brand-neutral-100) 10%,var(--auro-color-brand-neutral-200) 40%,var(--auro-color-brand-neutral-100) 60%);
   background-repeat: no-repeat;
   background-size: 1000px 100%;
 }
