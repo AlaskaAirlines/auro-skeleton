@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.1.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.0.1...v2.1.0) (2022-06-03)
+
+
+### Features
+
+* **bkgColor:** update gradient color ([c29135c](https://github.com/AlaskaAirlines/auro-skeleton/commit/c29135c5212c9316487efcdc6d377a7bb4689e47))
+
 ## [2.0.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.0.0...v2.0.1) (2021-12-02)
 
 
