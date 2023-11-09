@@ -21,15 +21,16 @@
     "lit-element": "^2.5.1"
   },
   "peerDependencies": {
-    "@alaskaairux/design-tokens": "^3.3.0",
-    "@alaskaairux/webcorestylesheets": "^3.4.0",
+    "@aurodesignsystem/design-tokens": "^4.2.0",
+    "@aurodesignsystem/webcorestylesheets": "^5.0.4",
     "@webcomponents/webcomponentsjs": "^2.5.0",
     "focus-visible": "^5.2.0"
   },
   "devDependencies": {
-    "@alaskaairux/design-tokens": "^3.3.0",
-    "@alaskaairux/webcorestylesheets": "^3.6.2",
+    "@alaskaairux/webcorestylesheets": "^3.7.3",
+    "@aurodesignsystem/design-tokens": "^4.2.0",
     "@aurodesignsystem/eslint-config": "^1.2.0",
+    "@aurodesignsystem/webcorestylesheets": "^5.0.4",
     "@babel/core": "^7.15.0",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.15.0",
