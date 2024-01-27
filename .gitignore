@@ -1,14 +1,15 @@
 .DS_Store
 node_modules/
+docTemplates/
 .cache/
 
 ## Demo support files
 demo/*.css
-demo/*.map
+demo/*.css.map
 
 ## CSS built from Sass process
 src/*.css
-src/*.map
+src/*.css.map
 
 ## *-css built from sass-render process
 *-css.js
@@ -17,5 +18,5 @@ src/*.map
 dist/
 build/
 
-## Karma code coverage reports
+## Code coverage reports
 coverage/
