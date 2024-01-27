@@ -4,15 +4,13 @@
 // ---------------------------------------------------------------------
 
 // If use litElement base class
-import { LitElement, html, css } from "lit-element";
+import { LitElement, html } from "lit";
 
 // If using auroElement base class
 // See instructions for importing auroElement base class https://git.io/JULq4
-// import { html, css } from "lit-element";
+// import { html, css } from "lit";
 // import AuroElement from '@alaskaairux/webcorestylesheets/dist/auroElement/auroElement';
 
-// Import touch detection lib
-import "focus-visible/dist/focus-visible.min.js";
 import styleCss from "./style-css.js";
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
@@ -23,7 +21,7 @@ import styleCss from "./style-css.js";
  */
 
 // build the component class
-class AuroSkeleton extends LitElement {
+export class AuroSkeleton extends LitElement {
   // constructor() {
   //   super();
   // }
@@ -36,9 +34,7 @@ class AuroSkeleton extends LitElement {
   }
 
   static get styles() {
-    return css`
-      ${styleCss}
-    `;
+    return [styleCss];
   }
 
   // When using auroElement, use the following attribute and function when hiding content from screen readers.
