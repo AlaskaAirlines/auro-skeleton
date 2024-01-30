@@ -1,5 +1,14 @@
 # Semantic Release Automated Changelog
 
+## [2.1.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.0...v2.1.1) (2024-01-30)
+
+
+### Performance Improvements
+
+* **deps:** update dependencies to latest version ([2eb3ce5](https://github.com/AlaskaAirlines/auro-skeleton/commit/2eb3ce5ddecc822fe2f27f92c14ab40f8e9d6f1f))
+* **imports:** update imports to [@aurodesignsystem](https://github.com/aurodesignsystem) ([858660b](https://github.com/AlaskaAirlines/auro-skeleton/commit/858660bb867702e0a08dd63f578d74404d8d19d5))
+* **token:** update token per new theming [#23](https://github.com/AlaskaAirlines/auro-skeleton/issues/23) ([0305927](https://github.com/AlaskaAirlines/auro-skeleton/commit/03059279acaf69a2c0578e6b0651ae0b664296da))
+
 # [2.1.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.0.1...v2.1.0) (2022-06-03)
 
 
