@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.1.3](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.2...v2.1.3) (2024-02-13)
+
+
+### Performance Improvements
+
+* update deps and add ESM support badge ([17e6439](https://github.com/AlaskaAirlines/auro-skeleton/commit/17e64399cde80ac8183cb3da054b29b3acbb324f))
+
 ## [2.1.2](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.1...v2.1.2) (2024-01-31)
 
 
