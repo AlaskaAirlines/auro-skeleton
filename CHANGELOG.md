@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.1.5](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.4...v2.1.5) (2024-02-20)
+
+
+### Performance Improvements
+
+* **docs:** add custom registration example ([185c777](https://github.com/AlaskaAirlines/auro-skeleton/commit/185c777a618bf9867b717f5bca46e5891e21f96f))
+
 ## [2.1.4](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.3...v2.1.4) (2024-02-15)
 
 
