@@ -7,6 +7,8 @@
 import { LitElement, html } from "lit";
 
 import styleCss from "./style-css.js";
+import colorCss from "./color-css.js";
+import tokensCss from "./tokens-css.js";
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
@@ -29,7 +31,11 @@ export class AuroSkeleton extends LitElement {
   }
 
   static get styles() {
-    return [styleCss];
+    return [
+      styleCss,
+      colorCss,
+      tokensCss
+    ];
   }
 
   // When using auroElement, use the following attribute and function when hiding content from screen readers.
