@@ -19,8 +19,6 @@
   animation-iteration-count: infinite;
   animation-name: place-holder-shimmer;
   animation-timing-function: linear;
-  background-color: var(--ds-color-brand-neutral-100, $ds-color-brand-neutral-100);
-  background-image: linear-gradient(to right,var(--ds-color-brand-neutral-100, $ds-color-brand-neutral-100) 10%,var(--ds-color-brand-neutral-200, $ds-color-brand-neutral-200) 40%,var(--ds-color-brand-neutral-100, $ds-color-brand-neutral-100) 60%);
   background-repeat: no-repeat;
   background-size: 1000px 100%;
 }

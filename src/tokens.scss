@@ -1,0 +1,8 @@
+@import './../node_modules/@aurodesignsystem/design-tokens/dist/tokens/SCSSVariables';
+
+:host {
+  --ds-auro-skeleton-background-color: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
+  --ds-auro-skeleton-background-gradient-one-color: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
+  --ds-auro-skeleton-background-gradient-two-color: var(--ds-color-background-primary-300-default, #{$ds-color-background-primary-300-default});
+  --ds-auro-skeleton-background-gradient-three-color: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
+}
