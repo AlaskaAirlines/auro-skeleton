@@ -79,3 +79,20 @@ The `<auro-skeleton>` element makes use of a single `shape` enumerated attribute
 ```
 <!-- AURO-GENERATED-CONTENT:END -->
 </auro-accordion>
+
+### Theme Support
+
+The component may be restyled using the following code sample and changing the values of the following token(s).
+
+<!-- AURO-GENERATED-CONTENT:START (CODE:src=./../../src/tokens.scss) -->
+<!-- The below code snippet is automatically added from ./../../src/tokens.scss -->
+
+```scss
+:host {
+  --ds-auro-skeleton-background-color: var(--ds-color-background-subtle-default, $ds-color-background-subtle-default);
+  --ds-auro-skeleton-gradient-color-one: var(--ds-color-background-subtle-default, $ds-color-background-subtle-default);
+  --ds-auro-skeleton-gradient-color-two: var(--ds-color-background-primary-300-default, $ds-color-background-primary-300-default);
+  --ds-auro-skeleton-gradient-color-three: var(--ds-color-background-subtle-default, $ds-color-background-subtle-default);
+}
+```
+<!-- AURO-GENERATED-CONTENT:END -->
