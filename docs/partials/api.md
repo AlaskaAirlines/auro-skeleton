@@ -44,3 +44,10 @@ The `<auro-skeleton>` element makes use of a single `shape` enumerated attribute
 <!-- AURO-GENERATED-CONTENT:END -->
 
 </auro-accordion>
+
+### Theme Support
+
+The component may be restyled using the following code sample and changing the values of the following token(s).
+
+<!-- AURO-GENERATED-CONTENT:START (CODE:src=./../../src/tokens.scss) -->
+<!-- AURO-GENERATED-CONTENT:END -->
