@@ -2,7 +2,7 @@
 
 :host {
   --ds-auro-skeleton-background-color: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
-  --ds-auro-skeleton-background-gradient-one-color: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
-  --ds-auro-skeleton-background-gradient-two-color: var(--ds-color-background-primary-300-default, #{$ds-color-background-primary-300-default});
-  --ds-auro-skeleton-background-gradient-three-color: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
+  --ds-auro-skeleton-background-gradient-color-one: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
+  --ds-auro-skeleton-background-gradient-color-two: var(--ds-color-background-primary-300-default, #{$ds-color-background-primary-300-default});
+  --ds-auro-skeleton-background-gradient-color-three: var(--ds-color-background-subtle-default, #{$ds-color-background-subtle-default});
 }
