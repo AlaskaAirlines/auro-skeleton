@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.2.0-beta.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.5...v2.2.0-beta.1) (2024-07-09)
+
+
+### Features
+
+* refactor color token structure with tier 3 tokens [#31](https://github.com/AlaskaAirlines/auro-skeleton/issues/31) ([577c0cc](https://github.com/AlaskaAirlines/auro-skeleton/commit/577c0ccd8010011757de3d418b4e23a836d5b87d))
+
 ## [2.1.5](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.4...v2.1.5) (2024-02-20)
 
 
