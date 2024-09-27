@@ -1,35 +1,5 @@
 # Semantic Release Automated Changelog
 
-# [3.0.0-beta.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.2.0-beta.1...v3.0.0-beta.1) (2024-09-27)
-
-
-### Bug Fixes
-
-* resolve minor color theming issues ([894b6fd](https://github.com/AlaskaAirlines/auro-skeleton/commit/894b6fdb1291e3e1e71fc7cbe75b1aec6d07400d))
-
-
-### Features
-
-* add tag name as attribute when custom registered ([d8c3f71](https://github.com/AlaskaAirlines/auro-skeleton/commit/d8c3f7118403265723841a54b5f255f396f9af80))
-
-
-### Performance Improvements
-
-* refactor custom component registration config ([147af17](https://github.com/AlaskaAirlines/auro-skeleton/commit/147af17a0872d461579250175f7f4a16b7c29b06))
-* update dependencies ([438c6b1](https://github.com/AlaskaAirlines/auro-skeleton/commit/438c6b18befb197a11c493f7d9fadb24ef989ea7))
-
-
-### BREAKING CHANGES
-
-* trigger major release for color theme support #31
-
-# [2.2.0-beta.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.5...v2.2.0-beta.1) (2024-07-09)
-
-
-### Features
-
-* refactor color token structure with tier 3 tokens [#31](https://github.com/AlaskaAirlines/auro-skeleton/issues/31) ([577c0cc](https://github.com/AlaskaAirlines/auro-skeleton/commit/577c0ccd8010011757de3d418b4e23a836d5b87d))
-
 ## [2.1.5](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.4...v2.1.5) (2024-02-20)
 
 
