@@ -7,6 +7,6 @@
 @import './../node_modules/@aurodesignsystem/design-tokens/dist/tokens/SCSSVariables';
 
 :host {
-  background-color: var(--ds-auro-skeleton-background-color);
-  background-image: linear-gradient(to right, var(--ds-auro-skeleton-background-gradient-color-one) 10%, var(--ds-auro-skeleton-background-gradient-color-two) 40%,var(--ds-auro-skeleton-background-gradient-color-three) 60%);
+  background-color: var(--ds-auro-skeleton-container-color);
+  background-image: linear-gradient(to right, var(--ds-auro-skeleton-container-gradient-color-one) 10%, var(--ds-auro-skeleton-container-gradient-color-two) 40%,var(--ds-auro-skeleton-container-gradient-color-one) 60%);
 }
