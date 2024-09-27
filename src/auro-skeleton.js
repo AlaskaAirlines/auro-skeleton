@@ -10,6 +10,8 @@ import styleCss from "./style-css.js";
 import colorCss from "./color-css.js";
 import tokensCss from "./tokens-css.js";
 
+import AuroLibraryRuntimeUtils from '@aurodesignsystem/auro-library/scripts/utils/runtimeUtils.mjs';
+
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
  * The auro-skeleton element provides users a way to indicate the loading of asynchronous content on a page.
@@ -19,9 +21,14 @@ import tokensCss from "./tokens-css.js";
 
 // build the component class
 export class AuroSkeleton extends LitElement {
-  // constructor() {
-  //   super();
-  // }
+  constructor() {
+    super();
+
+    /**
+     * @private
+     */
+    this.runtimeUtils = new AuroLibraryRuntimeUtils();
+  }
 
   // function to define props used within the scope of this component
   static get properties() {
@@ -36,6 +43,11 @@ export class AuroSkeleton extends LitElement {
       colorCss,
       tokensCss
     ];
+  }
+
+  firstUpdated() {
+    // Add the tag name as an attribute if it is different than the component name
+    this.runtimeUtils.handleComponentTagRename(this, 'auro-skeleton');
   }
 
   // When using auroElement, use the following attribute and function when hiding content from screen readers.
