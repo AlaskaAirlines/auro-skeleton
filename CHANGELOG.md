@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.0.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.0.0...v3.0.1) (2024-10-09)
+
+
+### Bug Fixes
+
+* make auro-library a normal dep instead of devDep ([2f71bc8](https://github.com/AlaskaAirlines/auro-skeleton/commit/2f71bc893c928c49f01334ff07afb8dbd8ab8d7f))
+
 # [3.0.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v2.1.5...v3.0.0) (2024-09-30)
 
 
