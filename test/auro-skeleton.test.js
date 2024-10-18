@@ -1,5 +1,5 @@
 import { fixture, html, expect } from '@open-wc/testing';
-import '../src/auro-skeleton.js';
+import '../index.js';
 
 describe('auro-skeleton', () => {
   it('auro-skeleton is accessible', async () => {
