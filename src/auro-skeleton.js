@@ -45,6 +45,18 @@ export class AuroSkeleton extends LitElement {
     ];
   }
 
+  /**
+   * This will register this element with the browser.
+   * @param {string} [name="auro-skeleton"] - The name of element that you want to register to.
+   *
+   * @example
+   * AuroSkeleton.register("custom-skeleton") // this will register this element to <custom-skeleton/>
+   *
+   */
+  static register(name = "auro-skeleton") {
+    AuroLibraryRuntimeUtils.prototype.registerComponent(name, AuroSkeleton);
+  }
+
   firstUpdated() {
     // Add the tag name as an attribute if it is different than the component name
     this.runtimeUtils.handleComponentTagRename(this, 'auro-skeleton');
@@ -59,10 +71,4 @@ export class AuroSkeleton extends LitElement {
       <span class="util_displayHiddenVisually">Loading...</span>
     `;
   }
-}
-
-/* istanbul ignore else */
-// define the name of the custom component
-if (!customElements.get("auro-skeleton")) {
-  customElements.define("auro-skeleton", AuroSkeleton);
 }
