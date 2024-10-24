@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [3.1.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.0.1...v3.1.0) (2024-10-24)
+
+
+### Features
+
+* **api:** add register static method [#39](https://github.com/AlaskaAirlines/auro-skeleton/issues/39) ([0a5deb7](https://github.com/AlaskaAirlines/auro-skeleton/commit/0a5deb789cb640410c32427a23753cbf1e2222ef))
+
+
+### Performance Improvements
+
+* update dependency versions ([2d4af8a](https://github.com/AlaskaAirlines/auro-skeleton/commit/2d4af8a69b421a31f2d3e8c6346a8a3e64572d97))
+
 ## [3.0.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.0.0...v3.0.1) (2024-10-09)
 
 
