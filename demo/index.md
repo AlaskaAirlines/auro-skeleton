@@ -6,8 +6,8 @@ This file is generated based on a template fetched from `./docs/partials/index.m
 
 # Skeleton
 
-<!-- AURO-GENERATED-CONTENT:START (FILE:src=./description.md) -->
-<!-- The below content is automatically added from ./description.md -->
+<!-- AURO-GENERATED-CONTENT:START (FILE:src=../docs/partials/description.md) -->
+<!-- The below content is automatically added from ../docs/partials/description.md -->
 The `<auro-skeleton>` custom element is for use when display content takes an extended amount of time to process and render on-screen. This indicator communicates to the user that data is being loaded and that the page is not frozen.
 
 [Research](https://www.nngroup.com/articles/progress-indicators/) conducted by the Nielsen Norman Group states that using skeleton states and [loading indicators](https://auro.alaskaair.com/components/auro/loader) improve user satisfaction.
@@ -17,8 +17,8 @@ The `<auro-skeleton>` element uses animation to convey that the page is still lo
 
 ## auro-skeleton use cases
 
-<!-- AURO-GENERATED-CONTENT:START (FILE:src=./useCases.md) -->
-<!-- The below content is automatically added from ./useCases.md -->
+<!-- AURO-GENERATED-CONTENT:START (FILE:src=../docs/partials/useCases.md) -->
+<!-- The below content is automatically added from ../docs/partials/useCases.md -->
 The `<auro-skeleton>` element can be used on container-based components like `<auro-card>` and other structured lists.
 <!-- AURO-GENERATED-CONTENT:END -->
 
@@ -33,8 +33,8 @@ Do not represent a loading state with `<auro-skeleton>` for an entire component 
 The `<auro-skelelton>` API consists of a standardized enumerated `shape` attribute and the use of customzied CSS. The following examples illusrtate use cases to include `circle`, `oval` and `rectangle`. With the use of CSS the user has infinate options for how the animated skeleton can be used in their loading UI.
 
 <div class="exampleWrapper">
-  <!-- AURO-GENERATED-CONTENT:START (FILE:src=./../../apiExamples/basic.html) -->
-  <!-- The below content is automatically added from ./../../apiExamples/basic.html -->
+  <!-- AURO-GENERATED-CONTENT:START (FILE:src=../apiExamples/basic.html) -->
+  <!-- The below content is automatically added from ../apiExamples/basic.html -->
   <auro-skeleton shape="circle" style="width: 40px; height: 40px"></auro-skeleton>
   <auro-skeleton shape="oval" style="width: 200px; height: 100px;"></auro-skeleton>
   <auro-skeleton shape="rectangle" style="width: 400px; height: 300px"></auro-skeleton>
@@ -42,8 +42,8 @@ The `<auro-skelelton>` API consists of a standardized enumerated `shape` attribu
 </div>
 <auro-accordion alignRight>
   <span slot="trigger">See code</span>
-<!-- AURO-GENERATED-CONTENT:START (CODE:src=./../../apiExamples/basic.html) -->
-<!-- The below code snippet is automatically added from ./../../apiExamples/basic.html -->
+<!-- AURO-GENERATED-CONTENT:START (CODE:src=../apiExamples/basic.html) -->
+<!-- The below code snippet is automatically added from ../apiExamples/basic.html -->
 
 ```html
 <auro-skeleton shape="circle" style="width: 40px; height: 40px"></auro-skeleton>
@@ -58,8 +58,8 @@ The `<auro-skelelton>` API consists of a standardized enumerated `shape` attribu
 Use your imagination. Wherever data can be placed, an `<auro-skelelton>` element can be used. In the following exmaple see how `<auro-skelelton>` is used in place where data will be filled once the process is completed.
 
 <div class="exampleWrapper">
-  <!-- AURO-GENERATED-CONTENT:START (FILE:src=./../../apiExamples/table_example.html) -->
-  <!-- The below content is automatically added from ./../../apiExamples/table_example.html -->
+  <!-- AURO-GENERATED-CONTENT:START (FILE:src=../apiExamples/table_example.html) -->
+  <!-- The below content is automatically added from ../apiExamples/table_example.html -->
   <table class="auro_table">
     <thead>
       <tr>
@@ -89,8 +89,8 @@ Use your imagination. Wherever data can be placed, an `<auro-skelelton>` element
 </div>
 <auro-accordion alignRight>
   <span slot="trigger">See code</span>
-<!-- AURO-GENERATED-CONTENT:START (CODE:src=./../../apiExamples/table_example.html) -->
-<!-- The below code snippet is automatically added from ./../../apiExamples/table_example.html -->
+<!-- AURO-GENERATED-CONTENT:START (CODE:src=../apiExamples/table_example.html) -->
+<!-- The below code snippet is automatically added from ../apiExamples/table_example.html -->
 
 ```html
 <table class="auro_table">
@@ -137,8 +137,8 @@ AuroSkeleton.register('custom-skeleton');
 This will create a new custom element that you can use in your HTML that will function identically to the `<auro-skeleton>` element.
 
 <div class="exampleWrapper exampleWrapper--flex">
-  <!-- AURO-GENERATED-CONTENT:START (FILE:src=./../../apiExamples/custom.html) -->
-  <!-- The below content is automatically added from ./../../apiExamples/custom.html -->
+  <!-- AURO-GENERATED-CONTENT:START (FILE:src=../apiExamples/custom.html) -->
+  <!-- The below content is automatically added from ../apiExamples/custom.html -->
   <custom-skeleton shape="circle" style="width: 40px; height: 40px"></custom-skeleton>
   <custom-skeleton shape="oval" style="width: 200px; height: 100px;"></custom-skeleton>
   <custom-skeleton shape="rectangle" style="width: 400px; height: 300px"></custom-skeleton>
@@ -146,8 +146,8 @@ This will create a new custom element that you can use in your HTML that will fu
 </div>
 <auro-accordion alignRight>
   <span slot="trigger">See code</span>
-<!-- AURO-GENERATED-CONTENT:START (CODE:src=./../../apiExamples/custom.html) -->
-<!-- The below code snippet is automatically added from ./../../apiExamples/custom.html -->
+<!-- AURO-GENERATED-CONTENT:START (CODE:src=../apiExamples/custom.html) -->
+<!-- The below code snippet is automatically added from ../apiExamples/custom.html -->
 
 ```html
 <custom-skeleton shape="circle" style="width: 40px; height: 40px"></custom-skeleton>
