@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+## [3.1.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.1.0...v3.1.1) (2024-11-23)
+
+
+### Bug Fixes
+
+* update markdown partial pathing to consume new auro lib [#41](https://github.com/AlaskaAirlines/auro-skeleton/issues/41) ([b2c51a7](https://github.com/AlaskaAirlines/auro-skeleton/commit/b2c51a7a0c5e089eb1eab7db5a839b37a2236e15))
+
+
+### Performance Improvements
+
+* update library to 3.0.2 ([a80a750](https://github.com/AlaskaAirlines/auro-skeleton/commit/a80a75081b4d14ca73c3e500ee6f1059c87f1eb2))
+
 # [3.1.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.0.1...v3.1.0) (2024-10-24)
 
 
