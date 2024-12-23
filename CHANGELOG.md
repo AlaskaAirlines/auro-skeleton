@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [3.2.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.1.1...v3.2.0) (2024-12-23)
+
+
+### Features
+
+* update auro deps post node 22 update ([9eec344](https://github.com/AlaskaAirlines/auro-skeleton/commit/9eec344965e9c9468c039798274817da41dd46cf))
+
+
+### Performance Improvements
+
+* update node to version 22 ([2717502](https://github.com/AlaskaAirlines/auro-skeleton/commit/2717502094be505fcca31cdfff48ca242794283a))
+
 ## [3.1.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.1.0...v3.1.1) (2024-11-23)
 
 
