@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.3.2](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.3.1...v3.3.2) (2025-02-08)
+
+
+### Performance Improvements
+
+* update dependencies ([d8680f2](https://github.com/AlaskaAirlines/auro-skeleton/commit/d8680f2d9cf8b848c5333c3bc9041f579ad3311a))
+
 ## [3.3.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.3.0...v3.3.1) (2025-02-08)
 
 
