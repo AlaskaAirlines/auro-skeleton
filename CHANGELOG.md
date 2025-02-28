@@ -1,5 +1,20 @@
 # Semantic Release Automated Changelog
 
+# [4.0.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.3.2...v4.0.0) (2025-02-28)
+
+
+* feat!: move peer dependencies to "real" dependencies ([c39e639](https://github.com/AlaskaAirlines/auro-skeleton/commit/c39e63995028efb50d9733786c6080e846e3f83e))
+
+
+### BREAKING CHANGES
+
+* last change was breaking _on a patch version_ because of peer dependencies
+
+Summary:
+  Our current build process relies on peer dependencies being present, but
+  the peer dependency pipeline is causing far more issues than it's worth.
+  Why not just make them regular dependencies? This is what this PR does :)
+
 ## [3.3.2](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.3.1...v3.3.2) (2025-02-08)
 
 
