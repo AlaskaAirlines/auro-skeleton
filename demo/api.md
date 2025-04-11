@@ -16,7 +16,8 @@ The auro-skeleton element provides users a way to indicate the loading of asynch
 
 ### Attribute Examples
 
-#### <a name="shape"></a>`shape`<a href="#" style="float: right; font-size: 1rem; font-weight: 100;">back to top</a>
+#### shape
+
 The `<auro-skeleton>` element makes use of a single `shape` enumerated attribute. Options are [`circle`, `oval`, `rectangle`]
 
 <div class="exampleWrapper">
