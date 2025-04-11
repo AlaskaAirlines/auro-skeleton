@@ -18,11 +18,11 @@ This file is generated based on a template fetched from `./docs/partials/index.m
 
 `<auro-skeleton>` should not be used on action components like `<auro-button>`, `<auro-input>` or `<auro-radio>`.
 
-Do not represent a loading state with `<auro-skeleton>` for an entire component such as a toast notification, dropdown menus, or a modal dialog. It is approapriate to use `<auro-skeleton>` for content inside those components, but never for the entire component.
+Do not represent a loading state with `<auro-skeleton>` for an entire component such as a toast notification, dropdown menus, or a modal dialog. It is appropriate to use `<auro-skeleton>` for content inside those components, but never for the entire component.
 
 ## Default examples
 
-The `<auro-skelelton>` API consists of a standardized enumerated `shape` attribute and the use of customzied CSS. The following examples illusrtate use cases to include `circle`, `oval` and `rectangle`. With the use of CSS the user has infinate options for how the animated skeleton can be used in their loading UI.
+The `<auro-skeleton>` API consists of a standardized enumerated `shape` attribute and the use of customized CSS. The following examples illustrate use cases to include `circle`, `oval` and `rectangle`. With the use of CSS the user has infinite options for how the animated skeleton can be used in their loading UI.
 
 <div class="exampleWrapper">
   <!-- AURO-GENERATED-CONTENT:START (FILE:src=../apiExamples/basic.html) -->
@@ -39,7 +39,7 @@ The `<auro-skelelton>` API consists of a standardized enumerated `shape` attribu
 
 ## Be creative
 
-Use your imagination. Wherever data can be placed, an `<auro-skelelton>` element can be used. In the following exmaple see how `<auro-skelelton>` is used in place where data will be filled once the process is completed.
+Use your imagination. Wherever data can be placed, an `<auro-skeleton>` element can be used. In the following example see how `<auro-skeleton>` is used in place where data will be filled once the process is completed.
 
 <div class="exampleWrapper">
   <!-- AURO-GENERATED-CONTENT:START (FILE:src=../apiExamples/table_example.html) -->
