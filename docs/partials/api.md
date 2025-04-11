@@ -5,7 +5,7 @@
 
 ### Attribute Examples
 
-#### `shape`
+#### shape
 
 The `<auro-skeleton>` element makes use of a single `shape` enumerated attribute. Options are [`circle`, `oval`, `rectangle`]
 
