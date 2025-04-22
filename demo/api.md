@@ -89,12 +89,12 @@ The component may be restyled using the following code sample and changing the v
 <!-- The below code snippet is automatically added from ../src/tokens.scss -->
 
 ```scss
-@import './../node_modules/@aurodesignsystem/design-tokens/dist/tokens/SCSSVariables';
+@import "./../node_modules/@aurodesignsystem/design-tokens/dist/alaska/SCSSVariables--alaska";
 
 :host {
-  --ds-auro-skeleton-container-color: var(--ds-color-container-subtle-default, #{$ds-color-container-subtle-default});
-  --ds-auro-skeleton-container-gradient-color-one: var(--ds-color-container-subtle-default, #{$ds-color-container-subtle-default});
-  --ds-auro-skeleton-container-gradient-color-two: var(--ds-color-container-tertiary-default, #{$ds-color-container-tertiary-default});
+  --ds-auro-skeleton-container-color: var(--ds-advanced-color-skeleton-background, #{$ds-advanced-color-skeleton-background});
+  --ds-auro-skeleton-container-gradient-color-one: var(--ds-advanced-color-skeleton-background, #{$ds-advanced-color-skeleton-background});
+  --ds-auro-skeleton-container-gradient-color-two: var(--ds-advanced-color-skeleton-wave, #{$ds-advanced-color-skeleton-wave});
 }
 ```
 <!-- AURO-GENERATED-CONTENT:END -->
