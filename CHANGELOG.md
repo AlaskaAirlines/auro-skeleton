@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [4.1.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v4.0.0...v4.1.0) (2025-04-28)
+
+
+### Features
+
+* update to use new color theme tokens [#53](https://github.com/AlaskaAirlines/auro-skeleton/issues/53) ([8213b6b](https://github.com/AlaskaAirlines/auro-skeleton/commit/8213b6bc234f35c871958528fce1475dafaf85cf))
+
+
+### Performance Improvements
+
+* add wca script for docs api ([db7ee06](https://github.com/AlaskaAirlines/auro-skeleton/commit/db7ee0622523ebda300681e92ec5b11e1fb40f62))
+
 # [4.0.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v3.3.2...v4.0.0) (2025-02-28)
 
 
