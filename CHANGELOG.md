@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+## [4.1.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v4.1.0...v4.1.1) (2025-07-02)
+
+
+### Bug Fixes
+
+* add type token integration ([820e3aa](https://github.com/AlaskaAirlines/auro-skeleton/commit/820e3aaf21b458513469324a66762479054e8a0e))
+* update docs head content ([0fa05dd](https://github.com/AlaskaAirlines/auro-skeleton/commit/0fa05ddf7bdd8ff8999c184f1f7363f038aecd8d))
+
 # [4.1.0](https://github.com/AlaskaAirlines/auro-skeleton/compare/v4.0.0...v4.1.0) (2025-04-28)
 
 
