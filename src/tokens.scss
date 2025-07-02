@@ -1,7 +1,7 @@
-@import "./../node_modules/@aurodesignsystem/design-tokens/dist/alaska/SCSSVariables--alaska";
+@use "@aurodesignsystem/design-tokens/dist/themes/alaska/SCSSVariables--alaska" as v;
 
 :host {
-  --ds-auro-skeleton-container-color: var(--ds-advanced-color-skeleton-background, #{$ds-advanced-color-skeleton-background});
-  --ds-auro-skeleton-container-gradient-color-one: var(--ds-advanced-color-skeleton-background, #{$ds-advanced-color-skeleton-background});
-  --ds-auro-skeleton-container-gradient-color-two: var(--ds-advanced-color-skeleton-wave, #{$ds-advanced-color-skeleton-wave});
+  --ds-auro-skeleton-container-color: var(--ds-advanced-color-skeleton-background, #{v.$ds-advanced-color-skeleton-background});
+  --ds-auro-skeleton-container-gradient-color-one: var(--ds-advanced-color-skeleton-background, #{v.$ds-advanced-color-skeleton-background});
+  --ds-auro-skeleton-container-gradient-color-two: var(--ds-advanced-color-skeleton-wave, #{v.$ds-advanced-color-skeleton-wave});
 }
