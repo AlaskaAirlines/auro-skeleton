@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.1.2](https://github.com/AlaskaAirlines/auro-skeleton/compare/v4.1.1...v4.1.2) (2025-08-11)
+
+
+### Bug Fixes
+
+* auro library was causing aqua scan failures ([a401435](https://github.com/AlaskaAirlines/auro-skeleton/commit/a40143506540712f7e724418ecfdfb12cc965c7a))
+
 ## [4.1.1](https://github.com/AlaskaAirlines/auro-skeleton/compare/v4.1.0...v4.1.1) (2025-07-02)
 
 
