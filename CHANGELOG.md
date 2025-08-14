@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.1.3](https://github.com/AlaskaAirlines/auro-skeleton/compare/v4.1.2...v4.1.3) (2025-08-14)
+
+
+### Bug Fixes
+
+* update auro-library to latest version ([d6abd97](https://github.com/AlaskaAirlines/auro-skeleton/commit/d6abd975cd25eb08d3875bd24c8eae6b9bab2a81))
+
 ## [4.1.2](https://github.com/AlaskaAirlines/auro-skeleton/compare/v4.1.1...v4.1.2) (2025-08-11)
 
 
