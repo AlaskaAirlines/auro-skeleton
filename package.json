@@ -29,7 +29,7 @@
   "devDependencies": {
     "@aurodesignsystem/auro-config": "^1.1.0",
     "@aurodesignsystem/eslint-config": "1.3.5",
-    "@biomejs/biome": "^2.2.4",
+    "@biomejs/biome": "^1.9.4",
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@open-wc/testing": "^4.0.0",
@@ -83,10 +83,7 @@
     "last 2 Safari major versions"
   ],
   "nodemonConfig": {
-    "ignore": [
-      "*-css.js",
-      "*.css"
-    ]
+    "ignore": ["*-css.js", "*.css"]
   },
   "release": {
     "branches": [
@@ -128,16 +125,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [
-    "alaska airlines",
-    "auro",
-    "design system",
-    "web components"
-  ],
+  "keywords": ["alaska airlines", "auro", "design system", "web components"],
   "scripts": {
-    "build": "npm-run-all build:sass sass:render dist:js bundler postinstall build:api build:docs types",
+    "build": "npm-run-all build:sass sass:render dist:js bundler build:api build:docs types",
     "build:test": "npm-run-all test lint",
-    "build:release": "npm-run-all build build:test build:api build:docs bundler postinstall",
+    "build:release": "npm-run-all build build:test build:api build:docs bundler",
     "build:ci": "npm-run-all sweep build:release",
     "build:api": "wca analyze 'scripts/wca/*' --outFiles docs/api.md",
     "build:dev:assets": "npm-run-all build:sass:component postCss:component sass:render build:docs",
@@ -162,11 +154,7 @@
     "postversion": "npm-run-all build:api build:docs"
   },
   "lint-staged": {
-    "*": [
-      "biome check --fix --no-errors-on-unmatched"
-    ],
-    "*.{scss,css}": [
-      "stylelint --fix"
-    ]
+    "*": ["biome check --fix --no-errors-on-unmatched"],
+    "*.{scss,css}": ["stylelint --fix"]
   }
 }

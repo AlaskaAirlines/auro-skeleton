@@ -1,5 +1,4 @@
-
-import { AuroSkeleton } from '../../src/auro-skeleton.js';
+import { AuroSkeleton } from "../../src/auro-skeleton.js";
 
 /**
  * The auro-skeleton element provides users a way to indicate the loading of asynchronous content on a page.
