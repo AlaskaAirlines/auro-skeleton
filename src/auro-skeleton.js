@@ -6,9 +6,9 @@
 // If use litElement base class
 import { LitElement, html } from "lit";
 
-import colorCss from "./color-css.js";
-import styleCss from "./style-css.js";
-import tokensCss from "./tokens-css.js";
+import colorCss from "./styles/color.scss";
+import styleCss from "./styles/style.scss";
+import tokensCss from "./styles/tokens.scss";
 
 import AuroLibraryRuntimeUtils from "@aurodesignsystem/auro-library/scripts/utils/runtimeUtils.mjs";
 

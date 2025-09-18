@@ -61,7 +61,7 @@ There are two important parts of every Auro component. The <a href="https://deve
 To protect from versioning conflicts with other instances of the component being loaded, it is recommended to use our `AuroSkeleton.register(name)` method and pass in a unique name.
 
 ```js
-import { AuroSkeleton } from './src/auro-skeleton.js';
+import { AuroSkeleton } from '@aurodesignsystem/auro-skeleton/class';
 
 AuroSkeleton.register('custom-skeleton');
 ```
