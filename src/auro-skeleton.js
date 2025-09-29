@@ -3,14 +3,12 @@
 
 // ---------------------------------------------------------------------
 
+import AuroLibraryRuntimeUtils from "@aurodesignsystem/auro-library/scripts/utils/runtimeUtils.mjs";
 // If use litElement base class
-import { LitElement, html } from "lit";
-
-import styleCss from "./style-css.js";
-import colorCss from "./color-css.js";
-import tokensCss from "./tokens-css.js";
-
-import AuroLibraryRuntimeUtils from '@aurodesignsystem/auro-library/scripts/utils/runtimeUtils.mjs';
+import { html, LitElement } from "lit";
+import colorCss from "./styles/color.scss";
+import styleCss from "./styles/style.scss";
+import tokensCss from "./styles/tokens.scss";
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
@@ -38,11 +36,7 @@ export class AuroSkeleton extends LitElement {
   }
 
   static get styles() {
-    return [
-      styleCss,
-      colorCss,
-      tokensCss
-    ];
+    return [styleCss, colorCss, tokensCss];
   }
 
   /**
@@ -59,7 +53,7 @@ export class AuroSkeleton extends LitElement {
 
   firstUpdated() {
     // Add the tag name as an attribute if it is different than the component name
-    this.runtimeUtils.handleComponentTagRename(this, 'auro-skeleton');
+    this.runtimeUtils.handleComponentTagRename(this, "auro-skeleton");
   }
 
   // When using auroElement, use the following attribute and function when hiding content from screen readers.
