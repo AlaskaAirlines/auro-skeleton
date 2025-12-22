@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Alaska Airlines. All right reserved. Licensed under the Apache-2.0 license
+// Copyright (c) 2025 Alaska Airlines. All right reserved. Licensed under the Apache-2.0 license
 // See LICENSE in the project root for license information.
 
 // ---------------------------------------------------------------------
@@ -12,12 +12,9 @@ import tokensCss from "./styles/tokens.scss";
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
- * The auro-skeleton element provides users a way to indicate the loading of asynchronous content on a page.
- *
- * @attr {String} shape - Renders a circle, oval, or rectangle loader.
+ * The `auro-skeleton` element provides users a way to indicate the loading of asynchronous content on a page.
+ * @customElement auro-skeleton
  */
-
-// build the component class
 export class AuroSkeleton extends LitElement {
   constructor() {
     super();
@@ -32,6 +29,14 @@ export class AuroSkeleton extends LitElement {
   static get properties() {
     return {
       // ...super.properties,
+
+      /**
+       * Renders a circle, oval, or rectangle loader
+       * @type {'circle' | 'oval' | 'rectangle'}
+       */
+      shape: { 
+        type: String,
+      },
     };
   }
 
@@ -41,7 +46,7 @@ export class AuroSkeleton extends LitElement {
 
   /**
    * This will register this element with the browser.
-   * @param {string} [name="auro-skeleton"] - The name of element that you want to register to.
+   * @param {string} [name="auro-skeleton"] - The name of the element that you want to register.
    *
    * @example
    * AuroSkeleton.register("custom-skeleton") // this will register this element to <custom-skeleton/>
