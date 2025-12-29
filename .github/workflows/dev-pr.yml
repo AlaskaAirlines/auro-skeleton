@@ -1,0 +1,39 @@
+name: Ensure jjones/automatingPR → dev PR exists
+
+on:
+  push:
+    branches:
+      - jjones/automatingPR
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  ensure-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create PR if missing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_COUNT=$(gh pr list \
+            --base dev \
+            --head jjones/automatingPR \
+            --state open \
+            --json number \
+            --jq 'length')
+
+          if [ "$PR_COUNT" -eq 0 ]; then
+            gh pr create \
+              --base dev \
+              --head jjones/automatingPR \
+              --title "Merge jjones/automatingPR into dev" \
+              --body "Test PR automatically created when jjones/automatingPR is pushed to."
+          else
+            echo "PR already exists. It will update automatically."
+          fi
