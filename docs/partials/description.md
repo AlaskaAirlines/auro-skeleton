@@ -1,5 +1,5 @@
-The `<auro-skeleton>` custom element is for use when display content takes an extended amount of time to process and render on-screen. This indicator communicates to the user that data is being loaded and that the page is not frozen.
+Use `<auro-skeleton>` as a placeholder for content that takes a while to load and display. It shows people that data is loading and the page isn't frozen.
 
-[Research](https://www.nngroup.com/articles/progress-indicators/) conducted by the Nielsen Norman Group states that using skeleton states and [loading indicators](https://auro.alaskaair.com/components/auro/loader) improve user satisfaction.
+[Research by the Nielsen Norman Group](https://www.nngroup.com/articles/progress-indicators/) shows that skeleton states and [loading indicators](https://auro.alaskaair.com/components/auro/loader) improve user satisfaction.
 
-The `<auro-skeleton>` element uses animation to convey that the page is still loading in order to reduce user uncertainty.
+Its shimmer animation shows that the page is still loading, which reduces uncertainty.

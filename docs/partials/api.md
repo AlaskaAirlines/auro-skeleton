@@ -16,11 +16,11 @@
 
 </auro-accordion>
 
-## Property & Attribute Examples
+## Property and attribute examples
 
 ### Shape
 
-The `<auro-skeleton>` element makes use of a single `shape` to control its appearance. Options are [`circle`, `oval`, `rectangle`].
+Use the `shape` attribute to set the skeleton's outline. `circle` makes an ellipse, which is a circle when the width and height match. `oval` gives it fully rounded ends, like a pill, and `rectangle` gives it slightly rounded corners. Without `shape`, the corners are square.
 
 ### Circle
 
@@ -67,11 +67,11 @@ The `<auro-skeleton>` element makes use of a single `shape` to control its appea
 
 </auro-accordion>
 
-## Common Usage Patterns & Functional Examples
+## Common usage patterns
 
 ## Be creative
 
-Use your imagination. Wherever data can be placed, an `<auro-skeleton>` element can be used. In the following example see how `<auro-skeleton>` is used in place where data will be filled once the process is completed.
+Use `<auro-skeleton>` anywhere data appears once it loads. In the following example, skeletons hold the place of table rows until their data arrives.
 
 <div class="exampleWrapper">
   <!-- AURO-GENERATED-CONTENT:START (FILE:src=../apiExamples/table-example.html) -->
@@ -86,9 +86,9 @@ Use your imagination. Wherever data can be placed, an `<auro-skeleton>` element 
 
 </auro-accordion>
 
-## Restyle Component with CSS Variables
+## Restyle with CSS custom properties
 
-The component may be restyled by changing the values of the following token(s).
+Restyle the component by changing the values of the following tokens.
 
 <!-- AURO-GENERATED-CONTENT:START (CODE:src=./../src/styles/tokens.scss) -->
 <!-- AURO-GENERATED-CONTENT:END -->
