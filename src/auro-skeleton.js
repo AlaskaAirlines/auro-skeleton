@@ -12,7 +12,16 @@ import tokensCss from "./styles/tokens.scss";
 
 // See https://git.io/JJ6SJ for "How to document your components using JSDoc"
 /**
- * The `auro-skeleton` element provides users a way to indicate the loading of asynchronous content on a page.
+ * Shows a placeholder shape with a shimmer animation while content loads, so people can tell the page is still working.
+ *
+ * **Key capabilities**
+ * - **Shapes**: Set `shape` to `circle`, `oval`, or `rectangle` to change the outline.
+ * - **Fills its container**: The skeleton always fills the width of its container unless you set a width, and it needs a height set with CSS.
+ * - **Screen reader text**: The skeleton always includes the hidden text "Loading..." for screen reader users.
+ *
+ * @summary A loading placeholder with a shimmer animation and circle, oval, or rectangle shapes.
+ * @example
+ * <auro-skeleton shape="rectangle" style="width: 400px; height: 300px"></auro-skeleton>
  * @customElement auro-skeleton
  */
 export class AuroSkeleton extends LitElement {
@@ -31,7 +40,7 @@ export class AuroSkeleton extends LitElement {
       // ...super.properties,
 
       /**
-       * Renders a circle, oval, or rectangle loader
+       * Sets the skeleton's outline. `circle` makes an ellipse, which is a circle when the width and height match, `oval` gives it fully rounded ends, and `rectangle` gives it slightly rounded corners. When not set, the corners are square.
        * @type {'circle' | 'oval' | 'rectangle'}
        */
       shape: { 
@@ -45,11 +54,11 @@ export class AuroSkeleton extends LitElement {
   }
 
   /**
-   * This will register this element with the browser.
-   * @param {string} [name="auro-skeleton"] - The name of the element that you want to register.
+   * Registers the element with the browser under a tag name.
+   * @param {string} [name="auro-skeleton"] - The tag name to register the element under.
    *
    * @example
-   * AuroSkeleton.register("custom-skeleton") // this will register this element to <custom-skeleton/>
+   * AuroSkeleton.register("custom-skeleton") // Registers the element as <custom-skeleton>
    *
    */
   static register(name = "auro-skeleton") {
